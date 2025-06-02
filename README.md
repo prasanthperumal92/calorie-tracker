@@ -1,4 +1,4 @@
-**Calorie Tracker
+<p style="display:inline-block;"><img src="https://github.com/user-attachments/assets/3e55b758-0ecc-4bfd-828f-79226dc97d48" width=120 height=120/> <h1> Calorie Tracker </h1> </p>
 
 This application is a food calorie tracker designed with user privacy and convenience in mind.
 It does not require users to sign in, ensuring that your data remains your own.
