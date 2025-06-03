@@ -162,3 +162,41 @@ curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:g
 ]
 }'
 ```
+Response:
+```
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"meal\": \"Mutton Biryani with Raitha and Fries\",\n  \"estimated_calories\": 1250,\n  \"nutrient_breakdown\": {\n    \"protein\": {\n      \"grams\": 55,\n      \"percentage\": 18\n    },\n    \"carbohydrates\": {\n      \"grams\": 150,\n      \"percentage\": 48\n    },\n    \"fat\": {\n      \"grams\": 55,\n      \"percentage\": 34\n    }\n  }\n}\n```\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.030974118764163883
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 45,
+    "candidatesTokenCount": 131,
+    "totalTokenCount": 176,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 45
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 131
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "uD8-aJqvPNr11PIP4Nzs0QY"
+}
+```
